@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "A test repo for supertokens-node feature 783 for typescript import check",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start:dev": "tsx watch src/index.ts",
+    "start:prod": "node --watch dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsx": "^4.7.3",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11"
+  }
+}
